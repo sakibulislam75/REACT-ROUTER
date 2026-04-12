@@ -8,8 +8,8 @@ const Header = () => {
             '>Header</h1>
             <nav className='text-blue-400'>
                 <NavLink className='mr-5' to='/'>Home</NavLink>
-                <NavLink className='mr-5' to='/about'>About</NavLink>
-                <NavLink className='mr-5' to='/mobile'>Mobile</NavLink>
+                <NavLink className='mr-5' to='/About'>About</NavLink>
+                <NavLink className='mr-5' to='/Mobile'>Mobile</NavLink>
             </nav>
         </div>
     );
