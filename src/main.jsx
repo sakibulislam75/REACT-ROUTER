@@ -26,6 +26,10 @@ const route = createBrowserRouter([
         path: 'Mobile/:userid',
         loader: ({ params }) => fetch(`https://jsonplaceholder.typicode.com/users/${params.userid}`),
         Component: Details
+      },{
+      
+        path: '*',
+        element: <h1 className='text-4xl text-red-500'>404 Not Found</h1>
       }
     ]
   }
